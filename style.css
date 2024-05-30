@@ -1,0 +1,40 @@
+
+
+h1 {
+    color: black;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+.hero {
+    background-color: #f9f7fe;
+    text-align: center;
+    padding: 160px 20px ;
+}
+
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero h2 {
+font-family: 'Courier New', Courier, monospace;
+font-weight: normal;
+font-size: 24px;
+line-height: 2;
+
+}
+.btn-branding {
+    background: #6c63ff;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
