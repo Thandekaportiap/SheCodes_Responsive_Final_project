@@ -1,10 +1,15 @@
 
 
-h1 {
+h1, h2, h3, h4, h5 {
     color: black;
     font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
+h1 {
+    font-size: 96px;
+    line-height: 1.5;
+}
+
 h2 {
     font-size: 64px
 }
@@ -26,6 +31,7 @@ p{
     font-size: 36px;
     font-weight: bold;
     margin: 0;
+    color: #272142;
 }
 
 .hero h2 {
@@ -50,4 +56,26 @@ line-height: 2;
     border-radius: 4px;
     color: #6c63ff;
     border: 1px solid #6c63ff;
+}
+.project-description {
+    padding: 120px 60px;
+}
+
+@media (max-width: 900px){
+    h1{
+        font-size: 44px;
+        line-height: 1.5;
+    }
+
+    h2 {
+    font-size: 44px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+    .project-discription{
+        padding: 0;
+        text-align: center;
+    }
 }
